@@ -2,6 +2,7 @@
 
 import inquirer from 'inquirer';
 import fs from 'fs';
+import Choices from 'inquirer/lib/objects/choices';
 
 // TODO: Create an array of questions for user input
 
@@ -27,13 +28,12 @@ const questions = [
     message: 'How do you use your project? Provide instructions and examples for use.',
   },
   {
-    license: 'What license are you using if any?'
+    type: 'list',
+    message: 'What license did you use if any?',
+    name: 'license',
+    choices: ['MIT', 'Apache', 'GNU', 'MPL', 'AGPL', 'none'],
   },
 ]
-  .then((response) =>
-    response
-  )
-
 
 // TODO: Create a function to write README file
 
@@ -43,7 +43,9 @@ function writeToFile(fileName, data) {
 
 // TODO: Create a function to initialize app
 
-function init() {}
+function init() {
+  
+}
 
 // Function call to initialize app
 
