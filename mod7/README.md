@@ -1,8 +1,8 @@
-# a
+# README Generator
  ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
  ## Description
- a
+ This was made to save time creating a REAME.md for all of your repositories.
 
  ## Table of Contents
  - [Description](#description)
@@ -15,18 +15,19 @@
  - [Additional Info](#additional-info)
 
  ## Installation
- a
+ Go into the termial on mod7 and do an npm install (npm i). Then you can run the application by typing node index.js in the terminal.
 
  ## Usage
- a
+ You will want to answer all of the questions that you can the best that you can. If everything worked correctly you should read "Success!". You can then go to your README.md file and go ahead and preview it.
 
  ## Credits
- a
+ 
 
  ## License
  This project is licensed under MIT.
+
  [MIT](https://mit-license.org/)
 
  ## Tests
- a
+ 
  
