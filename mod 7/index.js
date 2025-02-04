@@ -2,7 +2,7 @@
 
 import inquirer from 'inquirer';
 import fs from 'fs';
-import Choices from 'inquirer/lib/objects/choices';
+import generateMarkdown from './generateMarkdown.js';
 
 // TODO: Create an array of questions for user input
 
@@ -33,18 +33,23 @@ const questions = [
     name: 'license',
     choices: ['MIT', 'Apache', 'GNU', 'MPL', 'AGPL', 'none'],
   },
-]
+];
 
 // TODO: Create a function to write README file
 
 function writeToFile(fileName, data) {
-  fs.writeFile('README.md', )
-}
+  fs.writeFile(fileName, data, (err) => 
+  err ? console.error(err) : console.log('Success!')
+  );
+};
 
 // TODO: Create a function to initialize app
 
 function init() {
-  
+  inquirer.prompt(questions)
+    .then((data) => {
+      writeToFile('README.md', generateMarkdown(data));
+    });
 }
 
 // Function call to initialize app
