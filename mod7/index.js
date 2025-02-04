@@ -28,6 +28,16 @@ const questions = [
     message: 'How do you use your project? Provide instructions and examples for use.',
   },
   {
+    type: 'input',
+    name: 'contributing',
+    message: 'Who contributed to this project?',
+  },
+  {
+    type: 'input',
+    name: 'tests',
+    message: 'How do you test your project?',
+  },
+  {
     type: 'list',
     message: 'What license did you use if any?',
     name: 'license',

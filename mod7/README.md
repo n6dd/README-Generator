@@ -1,24 +1,32 @@
-# README Generator
- https://img.shields.io/badge/license-MIT-blue
+# a
+ ![badge](https://img.shields.io/badge/license-MIT-blue.svg)
 
  ## Description
- Creates README
+ a
 
  ## Table of Contents
+ - [Description](#description)
  - [Installation]($installation)
  - [Usage](#usage)
  - [License](#license)
  - [Contributing](#contributing)
  - [Tests](#tests)
  - [Question]($questions)
+ - [Additional Info](#additional-info)
 
  ## Installation
- Install
+ a
 
  ## Usage
- asdasdwq
+ a
+
+ ## Credits
+ a
 
  ## License
  This project is licensed under MIT.
- https://mit-license.org/
+ [MIT](https://mit-license.org/)
+
+ ## Tests
+ a
  
