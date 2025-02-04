@@ -15,7 +15,7 @@ const questions = [
   {
     type: 'input',
     name: 'description',
-    message: 'How would you describe your project?',
+    message: 'Why did you build this project and what problems does it solve?',
   },
   {
     type: 'input',
