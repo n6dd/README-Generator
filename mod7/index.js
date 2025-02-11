@@ -38,6 +38,16 @@ const questions = [
     message: 'How do you test your project?',
   },
   {
+    type: 'input',
+    name: 'email',
+    message: 'What is your email?'
+  },
+  {
+    type: 'input',
+    name: 'GitHub',
+    message: 'What is the link to your GitHub profile?'
+  },
+  {
     type: 'list',
     message: 'What license did you use if any?',
     name: 'license',
