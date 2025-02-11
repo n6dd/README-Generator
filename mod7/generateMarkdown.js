@@ -79,6 +79,10 @@ function generateMarkdown(data) {
  ${renderLicenseSection(data.license)}\n
  ${renderLicenseLink(data.license)}
 
+ ## About
+ ${data.email}\n
+ ${data.GitHub}
+
  ## Tests
  ${data.tests}
  `
